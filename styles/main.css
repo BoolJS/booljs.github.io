@@ -1,0 +1,9 @@
+#cover {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cover img {
+  height: 100%;
+}
