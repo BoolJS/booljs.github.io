@@ -133,6 +133,26 @@ nav {
 
 }
 
+@media (max-width: 767px) and (orientation: landscape) {
+
+
+    #cover img {
+        width: 60%;
+        max-height: 55%;
+        height: auto;
+        margin: 10px;
+    }
+
+    #cover h1 {
+        font-size: 35em;
+    }
+
+    nav {
+        font-size: 25em;
+    }
+
+}
+
 nav ul {
     list-style: none;
 }
