@@ -109,18 +109,6 @@ body {
 
 }
 
-@media (max-width: 767px) {
-
-    #cover h1 {
-        font-size: 25em;
-    }
-
-    nav {
-        font-size: 15em;
-    }
-
-}
-
 #cover h1 {
     font-family: 'corbertregular', 'aaarghnormal';
     font-size: 5vh;
@@ -130,6 +118,18 @@ body {
 nav {
     color: #6c6161;
     font-family: 'corbertregular', 'aaarghnormal';
+
+}
+
+@media (max-width: 767px) {
+
+    #cover h1 {
+        font-size: 25em;
+    }
+
+    nav {
+        font-size: 15em;
+    }
 
 }
 
