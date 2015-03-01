@@ -138,13 +138,13 @@ nav {
 
     #cover img {
         width: 60%;
-        max-height: 55%;
+        max-height: 50%;
         height: auto;
         margin: 10px;
     }
 
     #cover h1 {
-        font-size: 35em;
+        font-size: 45em;
     }
 
     nav {
