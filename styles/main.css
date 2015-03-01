@@ -112,11 +112,11 @@ body {
 @media (max-width: 767px) {
 
     #cover h1 {
-        font-size: 25vh;
+        font-size: 25em;
     }
 
     nav {
-        font-size: 15vh;
+        font-size: 15em;
     }
 
 }
