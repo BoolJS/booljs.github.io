@@ -89,6 +89,10 @@ input, select {
   CSS
 **/
 
+body {
+  background-color: #EEE;
+}
+
 #cover {
   height: 95vh;
   display: flex;
