@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Interface: BaseComponent</title>
+    <title>JSDoc: Class: BaseComponent</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Interface: BaseComponent</h1>
+    <h1 class="page-title">Class: BaseComponent</h1>
 
     
 
@@ -41,11 +41,30 @@
     <div class="container-overview">
     
         
-            <div class="description">Base Class for defining Bool.js components. It cannot be
-instantiated</div>
-        
 
-        
+    
+
+    <h4 class="name" id="BaseComponent"><span class="type-signature"></span>new BaseComponent<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+<div class="description">
+    Base Class for defining Bool.js components. It cannot be
+instantiated
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <dl class="details">
@@ -89,7 +108,20 @@ instantiated</div>
 </dl>
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     </div>
 
@@ -113,144 +145,7 @@ instantiated</div>
 
     
 
-    <h4 class="name" id="compatibleLoaderTypes"><span class="type-signature"></span>compatibleLoaderTypes<span class="signature">()</span><span class="type-signature"> &rarr; {Array.&lt;<a href="API.Loader.BaseLoader.html">API.Loader.BaseLoader</a>>}</span></h4>
-
-    
-
-
-
-<div class="description">
-    Controls which component types are compatible to the
-implemented component and can be binded to (backwards and forwards),
-for security and isolation issues.
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line12">line 12</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-<h5>Throws:</h5>
-
-        
-
-<dl>
-    <dt>
-        <div class="param-desc">
-        This is a non-implemented function, so it'll throw
-an Error.
-        </div>
-    </dt>
-    <dd></dd>
-    <dt>
-        <dl>
-            <dt>
-                Type
-            </dt>
-            <dd>
-                
-<span class="param-type">Error</span>
-
-
-            </dd>
-        </dl>
-    </dt>
-    <dd></dd>
-</dl>
-
-
-    
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    The list of compatible loader
-types.
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Array.&lt;<a href="API.Loader.BaseLoader.html">API.Loader.BaseLoader</a>></span>
-
-
-    </dd>
-</dl>
-
-    
-
-
-
-        
-            
-
-    
-
-    <h4 class="name" id="listLoaders"><span class="type-signature"></span>listLoaders<span class="signature">()</span><span class="type-signature"> &rarr; {Array.&lt;<a href="API.Loader.BaseLoader.html">API.Loader.BaseLoader</a>>}</span></h4>
+    <h4 class="name" id=".listLoaders"><span class="type-signature">(static) </span>listLoaders<span class="signature">()</span><span class="type-signature"> &rarr; {Array.&lt;<a href="API.Loader.BaseLoader.html">API.Loader.BaseLoader</a>>}</span></h4>
 
     
 
@@ -301,7 +196,7 @@ types.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line35">line 35</a>
+        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line31">line 31</a>
     </li></ul></dd>
     
 
@@ -385,7 +280,7 @@ this component.
 
     
 
-    <h4 class="name" id="registerLoader"><span class="type-signature"></span>registerLoader<span class="signature">(name, type)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id=".registerLoader"><span class="type-signature">(static) </span>registerLoader<span class="signature">(name, type)</span><span class="type-signature"></span></h4>
 
     
 
@@ -509,7 +404,7 @@ loaders for the bootstraping process.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line23">line 23</a>
+        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line11">line 11</a>
     </li></ul></dd>
     
 
@@ -598,7 +493,7 @@ an Error.
 
     
 
-    <h4 class="name" id="removeLoader"><span class="type-signature"></span>removeLoader<span class="signature">()</span><span class="type-signature"></span></h4>
+    <h4 class="name" id=".removeLoader"><span class="type-signature">(static) </span>removeLoader<span class="signature">()</span><span class="type-signature"></span></h4>
 
     
 
@@ -649,7 +544,7 @@ an Error.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line44">line 44</a>
+        <a href="api_component_base.js.html">api/component/base.js</a>, <a href="api_component_base.js.html#line40">line 40</a>
     </li></ul></dd>
     
 
@@ -721,13 +616,13 @@ an Error.
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="API.App.html">App</a></li><li><a href="API.AppInstance.html">AppInstance</a></li><li><a href="API.Configuration.html">Configuration</a></li><li><a href="API.Error.html">Error</a></li><li><a href="Interface.html">Interface</a></li></ul><h3>Namespaces</h3><ul><li><a href="API.html">API</a></li><li><a href="API.Component.html">Component</a></li><li><a href="API.Loader.html">Loader</a></li></ul><h3>Interfaces</h3><ul><li><a href="API.Component.BaseComponent.html">BaseComponent</a></li><li><a href="API.Loader.BaseLoader.html">BaseLoader</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="API.App.html">App</a></li><li><a href="API.AppInstance.html">AppInstance</a></li><li><a href="API.AppInstance.Store.html">Store</a></li><li><a href="API.Component.BaseComponent.html">BaseComponent</a></li><li><a href="API.Error.html">Error</a></li><li><a href="Interface.html">Interface</a></li></ul><h3>Namespaces</h3><ul><li><a href="API.html">API</a></li><li><a href="API.Component.html">Component</a></li><li><a href="API.Loader.html">Loader</a></li></ul><h3>Interfaces</h3><ul><li><a href="API.Loader.BaseLoader.html">BaseLoader</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-beta1</a> on Sun Mar 01 2015 01:09:45 GMT-0500 (COT)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-beta1</a> on Mon Mar 02 2015 15:08:56 GMT-0500 (COT)
 </footer>
 
 <script> prettyPrint(); </script>
