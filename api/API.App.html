@@ -29,10 +29,7 @@
 <header>
     
         <h2>
-            <span class="ancestors"><a href="API.html">API</a>.</span>
-        
-        App
-        </h2>
+            <span class="ancestors"><a href="API.html">API</a>.</span>App</h2>
         
     
 </header>
@@ -96,7 +93,7 @@ as a Singleton pool.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_app_index.js.html">api/app/index.js</a>, <a href="api_app_index.js.html#line6">line 6</a>
+        <a href="app_index.js.html">app/index.js</a>, <a href="app_index.js.html#line6">line 6</a>
     </li></ul></dd>
     
 
@@ -145,7 +142,7 @@ as a Singleton pool.
 
     
 
-    <h4 class="name" id=".getInstance"><span class="type-signature">(static) </span>getInstance<span class="signature">(namespace)</span><span class="type-signature"> &rarr; {API.Component.AppInstance}</span></h4>
+    <h4 class="name" id=".getInstance"><span class="type-signature">(static) </span>getInstance<span class="signature">(namespace, dependencies<span class="signature-attributes">nullable</span>)</span><span class="type-signature"> &rarr; {API.Component.AppInstance}</span></h4>
 
     
 
@@ -176,6 +173,8 @@ as a Singleton pool.
         <th>Type</th>
 
         
+        <th>Attributes</th>
+        
 
         
 
@@ -201,10 +200,53 @@ as a Singleton pool.
             </td>
 
             
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
 
             
 
             <td class="description last">The namespace of the application.</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>dependencies</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;String></span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+                    &lt;nullable><br>
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">An array with instance dependencies.
+When desired, must be referenced at first call to app instance,
+otherwise, it won't work after.</td>
         </tr>
 
     
@@ -245,7 +287,7 @@ as a Singleton pool.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_app_index.js.html">api/app/index.js</a>, <a href="api_app_index.js.html#line23">line 23</a>
+        <a href="app_index.js.html">app/index.js</a>, <a href="app_index.js.html#line23">line 23</a>
     </li></ul></dd>
     
 
@@ -349,7 +391,7 @@ as a Singleton pool.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_app_index.js.html">api/app/index.js</a>, <a href="api_app_index.js.html#line14">line 14</a>
+        <a href="app_index.js.html">app/index.js</a>, <a href="app_index.js.html#line14">line 14</a>
     </li></ul></dd>
     
 
@@ -503,7 +545,7 @@ the pool.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="api_app_index.js.html">api/app/index.js</a>, <a href="api_app_index.js.html#line36">line 36</a>
+        <a href="app_index.js.html">app/index.js</a>, <a href="app_index.js.html#line39">line 39</a>
     </li></ul></dd>
     
 
@@ -545,13 +587,15 @@ the pool.
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="API.App.html">App</a></li><li><a href="API.AppInstance.html">AppInstance</a></li><li><a href="API.AppInstance.Store.html">Store</a></li><li><a href="API.Component.BaseComponent.html">BaseComponent</a></li><li><a href="API.Error.html">Error</a></li><li><a href="Interface.html">Interface</a></li></ul><h3>Namespaces</h3><ul><li><a href="API.html">API</a></li><li><a href="API.Component.html">Component</a></li><li><a href="API.Loader.html">Loader</a></li></ul><h3>Interfaces</h3><ul><li><a href="API.Loader.BaseLoader.html">BaseLoader</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="API.App.html">App</a></li><li><a href="API.AppInstance.html">AppInstance</a></li><li><a href="API.AppInstance.Store.html">Store</a></li><li><a href="API.Error.html">Error</a></li><li><a href="API.Instance.AppComponents.html">AppComponents</a></li><li><a href="API.Middleware.html">Middleware</a></li><li><a href="API.Plugins.DatabaseLoader.html">DatabaseLoader</a></li><li><a href="API.RouteMiddleware.html">RouteMiddleware</a></li><li><a href="BasePlugin.html">BasePlugin</a></li><li><a href="module.exports.html">exports</a></li><li><a href="ServerLoader.html">ServerLoader</a></li></ul><h3>Namespaces</h3><ul><li><a href="API.html">API</a></li></ul><h3>Global</h3><ul><li><a href="global.html#fetchModels">fetchModels</a></li><li><a href="global.html#get">get</a></li><li><a href="global.html#listRetrievesalistofpluginsfilteredbytype">list
+Retrieves a list of plugins filtered by type</a></li><li><a href="global.html#modelConfiguration">modelConfiguration</a></li><li><a href="global.html#modelTemplate">modelTemplate</a></li><li><a href="global.html#openDatabase">openDatabase</a></li><li><a href="global.html#registerRegistersaplugin.">register
+Registers a plugin.</a></li><li><a href="global.html#TypesEnum">TypesEnum</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-beta1</a> on Mon Mar 02 2015 15:08:56 GMT-0500 (COT)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0-dev</a> on Tue Nov 03 2015 05:49:53 GMT-0500 (COT)
 </footer>
 
 <script> prettyPrint(); </script>
