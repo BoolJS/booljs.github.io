@@ -20,64 +20,54 @@ const users = [
 
 const siteConfig = {
   title: 'Bool.js',
+
   url: 'https://bool.js.org',
   baseUrl: '/',
+  repoUrl: 'https://www.github.com/booljs/booljs',
+  organizationName: 'booljs',
+  projectName: 'booljs.github.io',
+
   headerLinks: [
     { doc: 'doc1', label: 'Docs' },
     { href: 'https://doclets.io/BoolJS/booljs-api/master', label: 'API' },
     { page: 'help', label: 'Help' },
     { blog: true, label: 'Blog' },
-    { search: true, label: 'Search' },
     { href: 'https://github.com/booljs', label: 'GitHub' },
+    { languages: true },
+    { search: true }
   ],
+
   users,
-  /* path to images for header/footer */
+
   headerIcon: 'img/booljs.svg',
   footerIcon: 'img/booljs.svg',
   favicon: 'img/favicon.png',
 
-  /* colors for website */
   colors: {
-    primaryColor: '#666',
+    primaryColor: '#333',
     secondaryColor: '#EEE',
   },
 
-  /* custom fonts for website */
-  /*fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },*/
-
-  // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' Your Name or Your Company Name',
-
+  copyright: `Copyright © ${new Date().getFullYear()} Animal Technologies SAS`,
   highlight: {
-    // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [ 'https://buttons.github.io/buttons.js' ],
 
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/favicon.png',
+  twitterImage: 'img/favicon.png',
 
-  // You may provide arbitrary config keys to be used as needed by your
-  // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  algolia: {
+    appId: 'F3FBK9DWL7',
+    apiKey: 'e7ee6a5d35ef53028719ace3dbf65de1',
+    indexName: 'booljs'
+  }
 };
 
 module.exports = siteConfig;
