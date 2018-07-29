@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/BoolJS/booljs.github.io.svg?branch=develop)](https://travis-ci.org/BoolJS/booljs.github.io)
 
-It uses [Docusaurus](https://docusaurus.io) to be generated.
+It uses [Docusaurus](https://docusaurus.io) to be generated. Please read their documentation before start working on here.
 
 ## Install
 
