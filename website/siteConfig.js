@@ -5,6 +5,12 @@ const users = [
         infoLink: 'https://www.uniandes.edu.co',
         pinned: true,
     },
+    {
+        caption: 'Poetri',
+        image: '/img/users/poetri.png',
+        infoLink: 'https://poetri.co',
+        pinned: true,
+    }
 ];
 
 const siteConfig = {
