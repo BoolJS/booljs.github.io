@@ -62,9 +62,9 @@ const siteConfig = {
     twitterImage: 'img/favicon.png',
 
     algolia: {
-        appId: 'F3FBK9DWL7',
-        apiKey: 'e7ee6a5d35ef53028719ace3dbf65de1',
-        indexName: 'booljs'
+        appId: 'DOCSEARCH',
+        apiKey: '16179099955cea63cd3fc38785469364',
+        indexName: 'bool_js'
     },
 
     cleanUrl: true,
