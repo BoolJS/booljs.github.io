@@ -65,7 +65,7 @@ const siteConfig = {
         appId: 'DOCSEARCH',
         apiKey: '16179099955cea63cd3fc38785469364',
         indexName: 'bool_js',
-        algoliaOptions: { facetFilters: [ 'language:$LANGUAGE' ] }
+        algoliaOptions: { facetFilters: [ 'language:en' ] }
     },
 
     cleanUrl: true,
