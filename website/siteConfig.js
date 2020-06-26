@@ -3,12 +3,16 @@ const users = [
         caption: 'Universidad de los Andes',
         image: '/img/users/uniandes.svg',
         infoLink: 'https://www.uniandes.edu.co',
-        pinned: true,
     },
     {
         caption: 'Poetri',
         image: '/img/users/poetri.png',
         infoLink: 'https://poetri.co',
+    },
+    {
+        caption: 'Valiu',
+        image: '/img/users/valiu.svg',
+        infoLink: 'https://valiu.com',
         pinned: true,
     }
 ];
